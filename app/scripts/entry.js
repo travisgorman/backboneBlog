@@ -4,7 +4,7 @@ import $ from 'jquery';
 import router from './router';
 import session from './models/username';
 
-console.log(session);
+console.log(session.username);
 
 Backbone.history.start();
 
